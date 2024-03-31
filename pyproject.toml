@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fractal"
+version = "0.1.0"
+description = "Just draw fractals"
+authors = ["Matthew Nekirov <matthew.nekirov@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pillow = "^10.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
